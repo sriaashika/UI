@@ -1,0 +1,38 @@
+button{
+    color:hotpink;
+    background-color:lightblue;
+    text-align:center;
+}
+#ID{
+    color:hotpink;
+    background-color: lightgray;
+    text-align: right;
+}
+p{
+    color:hotpink;
+    background-color:lightblue;
+    text-align:left;
+}
+h2{
+    color:hotpink;
+    background-color:lightblue;
+    text-align:center;
+}
+div{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Eqe_iHm1Pe9dd-XKvaacnVDkSv0NjCILh7ChbutNBg&s=10");
+    height: 350px;width: 520px;
+}
+#Div{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwprmLyy7lUKlsNg6mPWxOjWZ5CrksBhSc1STdu-Oa8g&s");
+    height: 200px;width: 225px;
+}    
+.comic{
+    background-image: url("images/comic 1.jpg");
+    height: 550px;width: 1010px;
+    color:hotpink;
+}
+.comics{
+    background-image: url("images/comic 2.jpg");
+    height: 550px;width: 1010px;
+    color:hotpink;
+}
