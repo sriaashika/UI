@@ -1,0 +1,101 @@
+body {
+    background-color: #0a0c10;
+    color: #e6edf3;
+    font-family: 'Press Start 2P', monospace;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    border: 2px dashed #00ff66;
+    padding: 30px;
+    background-color: #12161f;
+    text-shadow: 0 0 1px #00ff99;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #00ff66;
+    margin: 10px 0;
+}
+
+header p {
+    color: #8b949e;
+    font-size: 16px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #232b38;
+    margin: 30px 0;
+}
+
+.gallery {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #12161f;
+    border: 1px solid #232b38;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 255, 102, 0.501);
+    margin: 15px
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.card h2 {
+    color: #00ff66;
+    font-size: 24px;
+    margin: 15px 0 10px 0;
+}
+
+summary {
+    color: #ff0055;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.card p {
+    font-size: 14px;
+    color: #e6edf3;
+}
+
+.specs{
+    background-color:#0a0c10;
+    border: 1px solid #232b38;
+    border-radius: 8px;
+    padding: 12px;
+}
+.card ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #8b949e;
+    font-size: 14px;
+}
+
+.card li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    color: #8b949e;
+    font-size: 14px;
+    padding: 20px 0;
+}
